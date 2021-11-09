@@ -5,9 +5,19 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class AllUserServiceService {
+  
+  
 
   constructor(private Http:HttpClient) { }
   getAllUsersApi(){
     return  this.Http.get('https://jsonplaceholder.typicode.com/users')
   }
+
+  // getViewUserPost
+
+  getViewUserPost(id:any){
+    return  this.Http.get('https://jsonplaceholder.typicode.com/users/'+id+'/posts')
+  }
+
+
 }

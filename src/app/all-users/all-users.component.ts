@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./all-users.component.css']
 })
 export class AllUsersComponent implements OnInit {
-  getViewUserPost(id: any) {
+  getAllUsersApi(id: any) {
     throw new Error('Method not implemented.');
   }
 

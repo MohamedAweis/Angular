@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AllUsersComponent} from './all-users/all-users.component';
 import { SingleUsersComponent } from './single-users/single-users.component';
-import { VeiwUuserComponent } from './veiw-user/veiw-uuser.component';
 import { ViewUserComponent } from './view-user/view-user.component';
 
 @NgModule({
@@ -17,7 +16,7 @@ import { ViewUserComponent } from './view-user/view-user.component';
     FooterComponent,
     SingleUsersComponent,
     AllUsersComponent,
-    VeiwUuserComponent,
+
     ViewUserComponent
   ],
   imports: [
